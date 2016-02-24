@@ -11,6 +11,12 @@ brew install node
 ```
 需要了解一点 `npm`【Node包管理器】 与 `nvm`(`n`)【Node多版本管理器】.
 
+### 玩下Node.js
+在命令行中直接输入`node`命令，即可打开`REPL`(`Read-eval-print loop`)。类似于 `python`。
+当然也可以使用如下命令玩一下：
+```
+node -e "console.log('Hello Node.js')"
+```
 
 ## Books  
 Node.js 开发指南 [亚马逊链接](http://www.amazon.cn/Node-%E9%83%AD%E5%AE%B6%E5%AE%9D/dp/B00ALPRM3W/ref=sr_1_14?ie=UTF8&qid=1456324247&sr=8-14&keywords=node.js)
