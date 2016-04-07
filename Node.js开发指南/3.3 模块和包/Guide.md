@@ -68,3 +68,8 @@
 > 本地模式可以直接 `require` 会在 `node_modules` 中进行搜索
 > 全局模式不能直接 `require`，默认不会搜索 ` /usr/local/lib/node_modules/ ` 但会默认注册PATH环境变量 `/usr/local/bin/`
 -   `npm link xxx` 本地与全局关联，双向都可以。 但此命令不支持Windows。 本地关联全局的包，在工程目录执行即可； 反过来如果想让全局使用本地开发的，需要在 `package.json` 所在的目录执行 `npm link`。
+-   发布包
+    1. `npm init` 完成基本信息的添写  
+    2. `npm adduser` 创建账户以及 `npm whoami` 检查是否登录正常
+    3. `npm publish` 与 `npm unpublish` 发布与取消发布
+    4. 已发布状态，即可使用 `npm install xx` 来进行安装或 <http://search.npmjs.org/> 找到发布的包。
