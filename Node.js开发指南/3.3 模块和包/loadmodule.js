@@ -9,3 +9,12 @@ var helloModule = require('./module');
 helloModule.setName('Snail');
 
 myModule.sayHello();
+
+
+//var Hello = require('./singleObject').Hello;
+var Hello = require('./singleObject');
+
+var hello = new Hello();
+
+hello.setName('A');
+hello.sayHello();
