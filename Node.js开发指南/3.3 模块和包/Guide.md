@@ -60,3 +60,11 @@
     } 
 }
 ```
+
+#### npm
+
+-   <http://npmjs.com>
+-   与 `pip` 或 `gem` 不同的是 `npm` 默认安装在本地（当前目录），如果需要全局安装，需要使用 `npm install -g xxxpackage`
+> 本地模式可以直接 `require` 会在 `node_modules` 中进行搜索
+> 全局模式不能直接 `require`，默认不会搜索 ` /usr/local/lib/node_modules/ ` 但会默认注册PATH环境变量 `/usr/local/bin/`
+-   `npm link xxx` 本地与全局关联，双向都可以。 但此命令不支持Windows。 本地关联全局的包，在工程目录执行即可； 反过来如果想让全局使用本地开发的，需要在 `package.json` 所在的目录执行 `npm link`。
