@@ -25,6 +25,5 @@ node xx.js
 ```
 
 ## Books  
-Node.js 开发指南 [亚马逊链接](http://www.amazon.cn/Node-%E9%83%AD%E5%AE%B6%E5%AE%9D/dp/B00ALPRM3W/ref=sr_1_14?ie=UTF8&qid=1456324247&sr=8-14&keywords=node.js)
-Demo <https://github.com/shjborage/Node.js-Guide/tree/master/Node.js%E5%BC%80%E5%8F%91%E6%8C%87%E5%8D%97>
+-   Node.js 开发指南 [亚马逊链接](http://www.amazon.cn/Node-%E9%83%AD%E5%AE%B6%E5%AE%9D/dp/B00ALPRM3W/ref=sr_1_14?ie=UTF8&qid=1456324247&sr=8-14&keywords=node.js)  [Demo](https://github.com/shjborage/Node.js-Guide/tree/master/Node.js%E5%BC%80%E5%8F%91%E6%8C%87%E5%8D%97)
 
