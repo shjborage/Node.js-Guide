@@ -25,7 +25,7 @@ node xx.js
 ```
 
 ### 进阶
--   [模块与包相关]()
+-   [模块与包相关](https://github.com/shjborage/Node.js-Guide/blob/master/Node.js%E5%BC%80%E5%8F%91%E6%8C%87%E5%8D%97/3.3%20%E6%A8%A1%E5%9D%97%E5%92%8C%E5%8C%85/Guide.md)
 -   Debug技巧
     1. 标准Debug `node debug debug.js` 类似 `gcc` 的Debug，需要执行一些命令，当然这个可以远程
     2. `node-inspector` 安装 `npm install -g node-inspector` 后在 WebKit的浏览器中Debug
