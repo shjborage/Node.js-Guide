@@ -30,6 +30,12 @@ node xx.js
     1. 标准Debug `node debug debug.js` 类似 `gcc` 的Debug，需要执行一些命令，当然这个可以远程
     2. `node-inspector` 安装 `npm install -g node-inspector` 后在 WebKit的浏览器中Debug
     3. IDE，比如WebStorm，非常方便
+    
+### 核心模块学习
+TODO
+
+### Web开发
+虽然 `node` 提供了 `http` 的各种底层能力（封装c++），但我们在实际应用过程中也没必要完全自己造轮子。 [Express]()应该是非常合适的选择～
 
 ## Books  
 -   Node.js 开发指南 [亚马逊链接](http://www.amazon.cn/Node-%E9%83%AD%E5%AE%B6%E5%AE%9D/dp/B00ALPRM3W/ref=sr_1_14?ie=UTF8&qid=1456324247&sr=8-14&keywords=node.js)  [Demo](https://github.com/shjborage/Node.js-Guide/tree/master/Node.js%E5%BC%80%E5%8F%91%E6%8C%87%E5%8D%97)
